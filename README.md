@@ -2,17 +2,17 @@
 
 **Canvas** is an app that allows users to use gestures in order to create fun pictures using a variety of images.
 
-Time spent: **X** hours spent in total
+Time spent: **5** hours spent in total
 
 ## User Stories
 
 The following **required** user stories are complete:
 
-- [ ] Add and Configure View Elements (+1pt)
-- [ ] User can use a pan gesture to move the position of the tray (+1pt)
-- [ ] The tray will continue to the up or down position based on the direction the user was last panning (+1pt)
-- [ ] User can use a pan gesture to drag faces from the image tray to the canvas (+1pt)
-- [ ] User can pan faces on the canvas (+1pt)
+- [X] Add and Configure View Elements (+1pt)
+- [X] User can use a pan gesture to move the position of the tray (+1pt)
+- [X] The tray will continue to the up or down position based on the direction the user was last panning (+1pt)
+- [X] User can use a pan gesture to drag faces from the image tray to the canvas (+1pt)
+- [X] User can pan faces on the canvas (+1pt)
 
 The following **stretch** user stories are implemented:
 
@@ -43,7 +43,7 @@ Please list two areas of the assignment you'd like to **discuss further with you
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://i.imgur.com/LxU0DoR.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 

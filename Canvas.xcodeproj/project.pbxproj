@@ -14,6 +14,7 @@
 		17099A4D209B7B4D00701D51 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17099A4B209B7B4D00701D51 /* LaunchScreen.storyboard */; };
 		17099A58209B7B4E00701D51 /* CanvasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17099A57209B7B4E00701D51 /* CanvasTests.swift */; };
 		17099A63209B7B4E00701D51 /* CanvasUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17099A62209B7B4E00701D51 /* CanvasUITests.swift */; };
+		1773835F209B7CF600376FB3 /* CanvasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1773835E209B7CF600376FB3 /* CanvasViewController.swift */; };
 		452846A569E2AB0E4D0E365C /* Pods_CanvasTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AD056969C1AF57312B85959 /* Pods_CanvasTests.framework */; };
 		64C5A0F565C0C30B3D0A69DA /* Pods_CanvasUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A984DE86A0A5B50E9461A0F /* Pods_CanvasUITests.framework */; };
 		C3BA1CB3B041D3D5B4059449 /* Pods_Canvas.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECC9896EE59E95086B2DDD04 /* Pods_Canvas.framework */; };
@@ -52,6 +53,7 @@
 		17099A62209B7B4E00701D51 /* CanvasUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasUITests.swift; sourceTree = "<group>"; };
 		17099A64209B7B4E00701D51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1773835C209B7BEC00376FB3 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		1773835E209B7CF600376FB3 /* CanvasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasViewController.swift; sourceTree = "<group>"; };
 		36EBE1C09FADC3E04A69F41C /* Pods-CanvasTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CanvasTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CanvasTests/Pods-CanvasTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5A984DE86A0A5B50E9461A0F /* Pods_CanvasUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CanvasUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AF762E589B6BC3FF1C09FED /* Pods-Canvas.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Canvas.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Canvas/Pods-Canvas.debug.xcconfig"; sourceTree = "<group>"; };
@@ -116,6 +118,7 @@
 		17099A41209B7B4D00701D51 /* Canvas */ = {
 			isa = PBXGroup;
 			children = (
+				1773835D209B7CD600376FB3 /* View Controllers */,
 				17099A42209B7B4D00701D51 /* AppDelegate.swift */,
 				17099A44209B7B4D00701D51 /* ViewController.swift */,
 				17099A46209B7B4D00701D51 /* Main.storyboard */,
@@ -142,6 +145,14 @@
 				17099A64209B7B4E00701D51 /* Info.plist */,
 			);
 			path = CanvasUITests;
+			sourceTree = "<group>";
+		};
+		1773835D209B7CD600376FB3 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1773835E209B7CF600376FB3 /* CanvasViewController.swift */,
+			);
+			path = "View Controllers";
 			sourceTree = "<group>";
 		};
 		56D4DDAD37045496735578E1 /* Pods */ = {
@@ -458,6 +469,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				17099A45209B7B4D00701D51 /* ViewController.swift in Sources */,
+				1773835F209B7CF600376FB3 /* CanvasViewController.swift in Sources */,
 				17099A43209B7B4D00701D51 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
